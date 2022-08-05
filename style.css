@@ -764,7 +764,7 @@ footer {
     color: #999999;
 }
 
-@media screen and (max-width:415px) {
+@media screen and (max-width:430px) {
     .header-wraper {
         width: 100%;
         display: flex;
