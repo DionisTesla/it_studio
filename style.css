@@ -9,7 +9,7 @@
 
 .header-wraper {
     min-height: 700px;
-    background-image: url(/images/banner.png);
+    background-image: url('./images/banner.png');
     background-size: 100%;
     background-repeat: no-repeat;
     max-width: 1920px;
@@ -476,7 +476,7 @@
     height: 570px;
     display: flex;
     justify-content: center;
-    background: url("/images/workspace_banner.png");
+    background: url("./images/workspace_banner.png");
 }
 
 .presentation-main {
@@ -525,7 +525,7 @@
     margin-top: 70px;
     width: 970px;
     height: 430px;
-    background: url("/images/work-video.png");
+    background: url("./images/work-video.png");
     display: flex;
     justify-content: center;
     /* background-color: green; */
