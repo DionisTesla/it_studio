@@ -8,11 +8,11 @@
 }
 
 .header-wraper {
+    max-width: 1920px;
     min-height: 700px;
     background-image: url('./images/banner.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    max-width: 1920px;
 }
 
 .header {
@@ -762,4 +762,94 @@ footer {
     line-height: 21px;
     text-align: center;
     color: #999999;
+}
+
+@media screen and (max-width:414px) {
+    .header-wraper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header {
+        width: 100%;
+        background-color: red;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .services-block {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-title {
+        width: 100%;
+        height: auto;
+    }
+
+    .services-title h2 {
+        /* width: 100%; */
+        font-size: 24px;
+    }
+
+    .services-title p {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .services {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .services-button {
+        margin-bottom: 50px;
+    }
+
+    .standarts-block {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .standarts-block__items {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .standarts-block__description {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .standarts-block__description h2 {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .standarts-block__description p {
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
