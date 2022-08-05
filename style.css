@@ -777,6 +777,7 @@ footer {
     }
 
     .container {
+        padding: 10px;
         width: 100%;
         height: auto;
         display: flex;
@@ -848,8 +849,21 @@ footer {
     }
 
     .standarts-block__description p {
+        width: 100%;
         font-size: 14px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
+
+    .standarts-block__description a {
+        font-size: 14px;
+    }
+
+    /* .standarts-block__image {
+        width: 100%
+    }
+
+    .standarts-block__image img {
+        width: 100%;
+        height: auto;
+        
+    } */
 }
